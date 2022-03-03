@@ -1,8 +1,31 @@
 pipeline {
+
     agent any
-    stages {
-        stage ('testing') {
-            echo "first stage"
+    stages
+    {
+        stage('Checkout')
+        {
+            steps
+            {
+                checkout scm
+            }
+        }
+
+        stage("Validate testing")
+        {
+            steps
+            {
+                echo "validate"
+
+                }
+        }
+        stage("Run testing")
+        {
+            steps
+            {
+                echo "plan testing"
+ 
+                }
         }
     }
 }
