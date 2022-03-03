@@ -15,7 +15,8 @@ pipeline {
         {
             steps
             {
-                echo "validate"
+                echo "slepp start"
+                sleep 10
 
                 }
         }
