@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage "testing" {
-            echo "first stage and working ?"
+            echo "first stage working ?"
         }
     }
 }
