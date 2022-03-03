@@ -1,8 +1,8 @@
 pipeline {
     agent any
     stages {
-        stage "testing" {
-            echo "first stage working ?"
+        state ('testing') {
+            echo "first stage"
         }
     }
 }
