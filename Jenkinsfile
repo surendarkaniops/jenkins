@@ -6,8 +6,7 @@ pipeline {
         }
 
     }
-
-    agent 
+ 
     stages
     {
         stage('Checkout')
