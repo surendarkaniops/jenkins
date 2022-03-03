@@ -1,6 +1,13 @@
 pipeline {
+        agent
+    {
+        node {
+        label 'dockerslave-demo'
+        }
 
-    agent dockerslave-demo
+    }
+
+    agent 
     stages
     {
         stage('Checkout')
