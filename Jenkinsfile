@@ -1,6 +1,6 @@
 pipeline {
 
-    agent any
+    agent dockerslave-demo
     stages
     {
         stage('Checkout')
